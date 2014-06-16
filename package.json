@@ -1,0 +1,27 @@
+{
+  "name": "jocal",
+  "version": "0.0.0",
+  "description": "silly function for saving/fetching json from window.localStorage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"looks gooood to me!" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chevett/jocal.git"
+  },
+  "keywords": [
+    "window",
+    "localstorage",
+    "browserify",
+    "json",
+    "local",
+    "storage"
+  ],
+  "author": "mike chevett",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chevett/jocal/issues"
+  },
+  "homepage": "https://github.com/chevett/jocal"
+}
