@@ -26,7 +26,7 @@ var obj = jocal(MY_KEY);
 alert(obj.hey); // alerts 'everyone'
 ```
 
-then event later still you can delete it
+then even later still you can delete it
 ```js
 var jocal = require('jocal');
 var MY_KEY = 'super-sweet-obj-that-i-must-have-for-later';
