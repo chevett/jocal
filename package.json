@@ -4,7 +4,7 @@
   "description": "silly function for saving/fetching json from window.localStorage",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"looks gooood to me!" && exit 0"
+    "test": "echo \"looks gooood to me!\" && exit 0"
   },
   "repository": {
     "type": "git",
