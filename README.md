@@ -33,3 +33,13 @@ var MY_KEY = 'super-sweet-obj-that-i-must-have-for-later';
 
 jocal(MY_KEY, null);
 ```
+
+pro usage
+---------
+```js
+var jocal = require('jocal'),
+	myFlag = jocal.bind(null, 'myFlagKey');
+
+myFlag(true);
+console.log(myFlag() ? 'print this' : 'not this');
+```	
