@@ -13,7 +13,7 @@ function _localStorage(key, value){
 				returnVal = JSON.parse(fake[key]);
 			}
 		}
-		catch(err){
+		catch (err){
 			console.error(err);
 		} 
 		finally{
@@ -22,7 +22,11 @@ function _localStorage(key, value){
 	}
 
 	if (IS_BROWSER){
-		window.localStorage.setItem(key, JSON.stringify(value));
+		try {
+			window.localStorage.setItem(key, JSON.stringify(value));
+		} catch (err){
+			console.error(err);
+		}
 	} else {
 		fake[key] = JSON.stringify(value);
 	}
