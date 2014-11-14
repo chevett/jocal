@@ -1,6 +1,6 @@
 {
   "name": "jocal",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "silly function for saving/fetching json from window.localStorage",
   "main": "index.js",
   "scripts": {
